@@ -17,3 +17,31 @@ p {
   color:red ;
    text-align:center;
 }
+ul#menu {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+ul#menu li{
+  display: block;
+  width: 250px;
+  border:1px solid;
+  padding:10px;
+  background-color:orange;
+}
+
+ul#menu li:hover {
+  background-color: red;
+}
+
+ul#menu li a{
+  text-decoration: none;
+}  
+li.vert{
+  background-color:yellow;
+}
+
+li.bleu{
+  background-color:blue;
+}
